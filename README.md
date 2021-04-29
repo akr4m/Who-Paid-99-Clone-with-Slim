@@ -4,9 +4,9 @@ Demo Project of Who Paid 99¢ Clone with Slim
 
 ### Controllers
 
-- [HomeController](https://github.com/akr4m/Who-Paid-99-Clone-with-Slim/blob/main/App/Controllers/HomeController)
-- [PaymentIndexController](https://github.com/akr4m/Who-Paid-99-Clone-with-Slim/blob/main/App/Controllers/PaymentIndexController)
-- [PaymentStoreController](https://github.com/akr4m/Who-Paid-99-Clone-with-Slim/blob/main/App/Controllers/PaymentStoreController)
+- [HomeController](https://github.com/akr4m/Who-Paid-99-Clone-with-Slim/blob/main/app/Controllers/HomeController.php)
+- [PaymentIndexController](https://github.com/akr4m/Who-Paid-99-Clone-with-Slim/blob/main/app/Controllers/PaymentIndexController.php)
+- [PaymentStoreController](https://github.com/akr4m/Who-Paid-99-Clone-with-Slim/blob/main/app/Controllers/PaymentStoreController.php)
 
 ### Web Routes
 
@@ -22,7 +22,3 @@ $app->get('/', HomeController::class);
 $app->post('/payments', PaymentStoreController::class);
 $app->get('/payments', PaymentIndexController::class);
 ```
-
-https://github.com/akr4m/Who-Paid-99-Clone-with-Slim/blob/main/App/Controllers/PaymentIndexController
-
-https://github.com/akr4m/Who-Paid-99-Clone-with-Slim/blob/main/app/Controllers/PaymentStoreController.php
